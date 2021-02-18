@@ -1,1 +1,30 @@
 /* You can add global styles to this file, and also import other style files */
+@import "./variables";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&family=Roboto&display=swap");
+/* Importing Bootstrap SCSS file. */
+@import "~bootstrap/scss/bootstrap";
+
+.bg-black {
+  background: $color-black;
+}
+html{
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Montserrat", "Lato", sans-serif;
+  background: $color-black;
+  color: $color-white;
+  scroll-behavior: smooth;
+  // max-width: 100%;
+  // overflow-x: hidden;
+}
+.basic-text {
+  color: $color-gray;
+}
+.color-white {
+  color: $color-white;
+}
+.color-yellow {
+  color: $color-yellow;
+}

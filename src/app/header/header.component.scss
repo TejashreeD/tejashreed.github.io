@@ -9,3 +9,22 @@
 .nav-link {
   padding-right: 1rem;
 }
+#nav .navbar-nav li > a {
+  text-transform: capitalize;
+  color: rgba(255, 255, 255, 0.5);
+  transition: background-color 0.2s, color 0.2s;
+
+  &:hover,
+  &:focus {
+    // background-color: #ccc;
+    color: $color-yellow;
+  }
+}
+
+#nav .navbar-nav li.active > a {
+  // background-color: #ccc;
+  color: $color-yellow;
+}
+::ng-deep.navbar-dark .navbar-nav .nav-link {
+  color: rgba(255, 255, 255, 0.5);
+}

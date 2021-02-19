@@ -1,0 +1,14 @@
+@import "../../variables.scss";
+.sr-progress-wrap {
+  .progress {
+    height: 0.8rem;
+    .progress-bar {
+      height: 0.8rem;
+      background-color: $color-yellow;
+      span {
+        color: $color-black;
+        font-weight: bold;
+      }
+    }
+  }
+}

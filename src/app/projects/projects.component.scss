@@ -1,0 +1,33 @@
+@import "../../variables.scss";
+
+::ng-deep.accordion {
+  > .card {
+    border-bottom: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    background: rgba(255, 255, 255, 0.1);
+  }
+}
+::ng-deep.btn-link {
+  color: $color-white;
+}
+.sr-projects-div {
+  margin-bottom: 30px;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 30px;
+  border-radius: 5px;
+  width: 100%;
+  cursor: pointer;
+  .desc {
+    h6 {
+      color: $color-yellow;
+      padding-bottom: 2px;
+      border-bottom: 2px solid rgba(255, 255, 255, 0);;
+      &:hover {
+        color: $color-white;
+        border-bottom: 2px solid $color-yellow;
+        margin-bottom: 2px;
+      }
+    }
+  }
+}

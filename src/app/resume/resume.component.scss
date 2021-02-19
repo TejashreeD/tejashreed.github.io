@@ -1,0 +1,31 @@
+@import '../../variables.scss';
+
+.sr-md-6 {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 50%;
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+.sr-resume-wrap {
+  margin-bottom: 30px;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 30px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+
+  .sr-date {
+    font-weight: bold;
+    font-size: 1rem;
+    color: $color-yellow;
+  }
+  h2 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin: 1rem 0;
+  }
+  span {
+    font-size: 0.75rem;
+  }
+}

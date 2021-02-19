@@ -1,12 +1,33 @@
 <!-- The routed views render in the <router-outlet>-->
 <app-header></app-header>
-<div class="app-data-container">
+<div class="app-data-container" (scroll)="onScroll($event)">
   <!-- <router-outlet></router-outlet> -->
   <app-home></app-home>
   <div class="clearfix"></div>
+
   <app-about></app-about>
   <div class="clearfix"></div>
-  <!-- <app-resume></app-resume> -->
+
+  <app-resume></app-resume>
   <div class="clearfix"></div>
+
+  <app-services></app-services>
+  <div class="clearfix"></div>
+
+  <app-skills></app-skills>
+  <div class="clearfix"></div>
+
+  <!-- <app-projects></app-projects> -->
+  <div class="clearfix"></div>
+
+  <!-- <app-blogs></app-blogs> -->
+  <div class="clearfix"></div>
+
+  <!-- <app-contact></app-contact> -->
+  <div class="clearfix"></div>
+
+  <app-testimonials></app-testimonials>
+  <div class="clearfix"></div>
+
 
 </div>
